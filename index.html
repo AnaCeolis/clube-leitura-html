@@ -2,11 +2,19 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="windth=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube de Leitura</title>
     
     <!-- Ícone da página -->
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/29/29302.png">
+
+    <!-- Ligação com o arquivo CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -29,7 +37,7 @@
     <!-- Conteúdo Principal -->
     <main>
         
-        <section id="Importância">
+        <section id="Importância" class="secao">
             <h2>Por que ler é tão importante?</h2>
             <p> A leitura estimula a criatividade, amplia o vocabulário e ajuda a desenvolver o pensamento crítico.<p>
             <p>Por meio dos livros é possível conhecer diferentes culturas, épocas e maneiras de enxergar o mundo.</p>
@@ -37,7 +45,7 @@
     <!-- Imagem com descrição alternativa -->
      <figure>
         <img
-            scr="https://s2.glbimg.com/Uj58WeKTmwRKBZ9-QllsrG_r9JU=/e.glbimg.com/og/ed/f/original/2017/04/27/6363562459_7399ee3c3e_b.jpg"
+            src="https://s2.glbimg.com/Uj58WeKTmwRKBZ9-QllsrG_r9JU=/e.glbimg.com/og/ed/f/original/2017/04/27/6363562459_7399ee3c3e_b.jpg"
             alt="Livro sendo folheado"
             width="400">
         <figcaption>Os livros nos convidam a explorar novas histórias.</figcaption>
@@ -82,11 +90,17 @@
         </section>
         
         <!-- Conteúdo complementar -->
-        <aside>
+        <aside class="dica" id="dica-leitura">
             <h2>Um dica para os leitores</h2>
             <p>Não é necesssário  ler muitas páginas de uma vez. Aproveite a história no seu ritmo.</p>
         </aside>
 
+        <!-- Link para a página de recomendações -->
+        <section class="secao">
+            <h2>Explore nossas recomendações</h2>
+            <p>Descubra sua próxima leitura na nossa seleção de livros!</p>
+            <a href="livros.html">Conheça nossas recomendações de livros</a>
+        </section>
     </main>
     
     <!-- Rodapé -->
