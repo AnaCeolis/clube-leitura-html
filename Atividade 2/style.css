@@ -1,0 +1,83 @@
+body{
+    background-color: #f5efe6;
+    color: #40352f;
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+}
+
+/* Título principal */
+h1{
+    color: #6b3e26;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Títulos e subtítulos */
+h2, h3{
+    color: #8b4513;
+}
+
+/* Parágrafos */
+p{
+    line-height: 1.6;
+}
+
+/* Espaçamento e bordas das seções */
+.secao {
+    background-color: #fffaf3;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #d6b995;
+}
+
+/* Estilização da dica usando um seletor de ID */
+#dica-leitura{
+    background-color: #eadcc8;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #8b4513;
+    border-radius: 8px;
+}
+
+/* Estilização das Listas */
+ul,ol{
+    padding-left: 30px;
+    line-height: 1.8;
+}
+
+/* Espaçamento entre os itens */
+li{
+    margin-bottom: 8px;
+}
+
+/* Cor dos marcadores da Lista */
+li::marker{
+    color: #8b4513;
+    font-weight: bold;
+}
+
+/* Bordas e espaçamento das imagens */
+figure{
+    margin: 20px 0;
+    padding: 12px;
+    border: 2px dashed #b89570;
+    border-radius: 10px;
+}
+
+/* Ajuste da imagem */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização dos links */
+a{
+    color: #75451f;
+    text-decoration: nome;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+a:hover{
+    color: #b05a2b;
+    text-decoration: underline;
+}
